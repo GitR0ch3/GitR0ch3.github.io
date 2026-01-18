@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #858585;
+  color: #222;
+}
+
+
+header {
+  background-color: #111827;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+  z-index: 10;
+}
+
+header a{
+  position: relative;
+  top: -5px;
+}
+
+header div a img{
+  position: relative;
+  top: 10px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .logo:hover{
+    color: #00c6cf;
+    transition: 0.5s;
+
+  }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00c6cf;
+}
+
+h1 {
+  margin: 60px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+  width: 100%;
+  text-align: center;
+}
+
+button{
+  width: 15%;
+  margin: 20px;
+  padding: 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.Contenido {
+
+    background-color: #a5a2a2;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    margin: 15px;
+
+    
+}
+
+img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.Apple {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.Apple1{
+  display: flex;
+
+}
+
+.fila1{
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  margin: 20px;
+  padding:  20px;
+}
+
+p{
+  background-color:#f9f9f9 ;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px;
+  font-size: 20px;
+  height: 30vh auto;
+
+}
+
+#m1{
+  width: 40%;
+}
+
+#m2{
+  width: 55%;
+}
+
+#m3{
+  width: 30%;
+}
+

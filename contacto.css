@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(6, 12, 36);
+}
+
+
+header {
+  background-color: #111827;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: sticky;
+}
+
+header a{
+  position: relative;
+  top: -5px;
+}
+
+header div a img{
+  position: relative;
+  top: 10px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00c6cf;
+}
+
+h2{
+  margin: 50px;
+  text-align: center;
+}
+
+.contenedor{
+  color: #ffff;
+  width: 100%;
+}
+
+.Contacto{
+  width: 100%;
+}
+
+img{
+  width: 30px;
+  border-radius: 20px;
+}
+
+.map{
+  width: 850px;
+
+}
+
+.texto-contacto{
+  display: flex;
+  margin: 20px;
+  
+}
+
+section{
+  width:30%;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
